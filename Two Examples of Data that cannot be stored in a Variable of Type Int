@@ -1,0 +1,17 @@
+// Two Examples of Data that cannot be stored in a Variable of Type Int
+public class DataTypeStoring {
+
+	public static void main(String[] args) {
+		//Declare two integer variables
+      int Val1, Val2;
+      
+   // Example 1: "double" Data cannot be used in integer variable without type Casting
+      
+      Val1 = 1.1;
+      
+   // Example 2: "String" Data cannot be used in integer variable
+      
+      Val2 = "simple"; 
+	}
+
+}
